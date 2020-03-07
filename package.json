@@ -1,0 +1,16 @@
+{
+  "name": "dev-connector",
+  "version": "1.0.0",
+  "description": "social network for devs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
