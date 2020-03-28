@@ -44,8 +44,8 @@ const EditProfile = ({
       linkedin: loading || !profile.social ? '' : profile.social.linkedin,
       youtube: loading || !profile.social ? '' : profile.social.youtube,
       instagram: loading || !profile.social ? '' : profile.social.instagram
-    });
-  }, [loading]); //2nd attribute is the dependent on which it will run
+    }); // eslint-disable-next-line
+  }, [loading, getCurrentProfile]); //2nd attribute is the dependent on which it will run
 
   const {
     company,
@@ -236,7 +236,7 @@ const EditProfile = ({
         )}
 
         <input type='submit' className='btn btn-primary my-1' />
-        <Link className='btn btn-light my-1' href='/dashboard'>
+        <Link className='btn btn-light my-1' to='/dashboard'>
           Go Back
         </Link>
       </form>

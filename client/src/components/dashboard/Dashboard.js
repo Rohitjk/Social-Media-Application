@@ -16,7 +16,7 @@ const Dashboard = ({
 }) => {
   useEffect(() => {
     getCurrentProfile();
-  }, []); // 2nd param makes it run only once instead of loop
+  }, [getCurrentProfile]); // 2nd param makes it run only once instead of loop
   return loading && profile === null ? (
     <Spinner />
   ) : (
