@@ -2,7 +2,7 @@
 
 > Social network for developers
 
-This is a MERN stack application. It is a small social network app that includes authentication, profiles and forum posts. It uses JWT for user authentication and also uses the Github api to fetch user repos.
+full stack social network application using Node.js, Express, React, Redux and MongoDB. It includes authentication, profiles and forum posts. It uses JWT for user authentication and also uses the Github api to fetch user repos.
 
 # Quick Start
 
